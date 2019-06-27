@@ -5,6 +5,8 @@ Saitek/Logitech X56 - DirectOutput LED Wrapper
 This is a constructor to use with the DirectOutput.dll provided with the latest Logitech SDK, ESPECIALLY for setting the LEDs.
 This is based on the original Wrapper from https://github.com/nikburnt/saitek-direct-output-csharp-wrapper
 
+![Screenshot](screenshots/1.png)
+
 ### Enjoying this?
 Just star the repo or make a donation.
 
