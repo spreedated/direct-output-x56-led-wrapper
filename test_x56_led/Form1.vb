@@ -1,4 +1,6 @@
-﻿Public Class Form1
+﻿Imports X56_Wrapper_x64
+
+Public Class Form1
     Dim i As X56_Wrapper = New X56_Wrapper
 
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
