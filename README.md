@@ -14,7 +14,7 @@ Just star the repo or make a donation.
 
 ### Setup
 * Find an example in the Form1.frm (Testingform)
-* You may extract the X56_Wrapper.vb (Module/Classes) to a dll
+* Import/add reference X56_Wrapper_x64.dll
 
 ### Usage
 * Simple straightforward
