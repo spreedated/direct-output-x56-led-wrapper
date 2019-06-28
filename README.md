@@ -14,7 +14,6 @@ Just star the repo or make a donation.
 
 ### Setup
 * Find an example in the Form1.frm (Testingform)
-* If VS cannot find a reference to DirectInputCSharpWrapper, create one, I've provided the dll in the root folder
 * You may extract the X56_Wrapper.vb (Module/Classes) to a dll
 
 ### Usage
