@@ -1,6 +1,4 @@
-﻿Imports DirectOutputCSharpWrapper
-
-Public Class X56_Wrapper
+﻿Public Class X56_Wrapper
     Private _DeviceHandles As List(Of (Guid, IntPtr)) = New List(Of (Guid, IntPtr))
     Public Property DeviceHandles As List(Of (Guid, IntPtr))
         Set(value As List(Of (Guid, IntPtr)))
@@ -24,9 +22,9 @@ Public Class X56_Wrapper
         Both
     End Enum
 
-    Private dcObj As DirectOutput = New DirectOutput
-    Private cbFuncEnumarateDevice As DirectOutput.EnumerateCallback
-    Private cbFuncNewDevice As DirectOutput.DeviceCallback
+    Private dcObj As DirectOutputVB = New DirectOutputVB
+    Private cbFuncEnumarateDevice As DirectOutputVB.EnumarateCallback
+    Private cbFuncNewDevice As DirectOutputVB.DeviceCallback
 
     Private Sub EnumCallback(device As IntPtr, target As IntPtr)
         ' GUIDs
